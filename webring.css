@@ -1,0 +1,12 @@
+#webring {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* webring got two divs, one info container and the second one the links container */
+#webring > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
